@@ -1,0 +1,19 @@
+{
+    "data": 
+        
+        [
+           {
+            "signaltype":"Buy",
+            "value":"83%",
+            "return":2.45
+           },
+           {
+            "signaltype":"Sell",
+            "value":"95%",
+            "return":-4.75
+           }
+        ]
+      
+    
+    
+}

@@ -1,0 +1,187 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'SFProDisplay';
+  src: url('../fonts/SFProDisplay-Light.eot');
+  src: url('../fonts/SFProDisplay-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SFProDisplay-Light.woff2') format('woff2'),
+    url('../fonts/SFProDisplay-Light.woff') format('woff'),
+    url('../fonts/SFProDisplay-Light.ttf') format('truetype'),
+    url('../fonts/SFProDisplay-Light.svg#SFProDisplay-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SFProDisplay';
+  src: url('../fonts/SFProDisplay-Medium.eot');
+  src: url('../fonts/SFProDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SFProDisplay-Medium.woff2') format('woff2'),
+    url('../fonts/SFProDisplay-Medium.woff') format('woff'),
+    url('../fonts/SFProDisplay-Medium.ttf') format('truetype'),
+    url('../fonts/SFProDisplay-Medium.svg#SFProDisplay-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SFProDisplay';
+  src: url('../fonts/SFProDisplay-Regular.eot');
+  src: url('../fonts/SFProDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SFProDisplay-Regular.woff2') format('woff2'),
+    url('../fonts/SFProDisplay-Regular.woff') format('woff'),
+    url('../fonts/SFProDisplay-Regular.ttf') format('truetype'),
+    url('../fonts/SFProDisplay-Regular.svg#SFProDisplay-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SFProDisplay';
+  src: url('../fonts/SFProDisplay-Semibold.eot');
+  src: url('../fonts/SFProDisplay-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SFProDisplay-Semibold.woff2') format('woff2'),
+    url('../fonts/SFProDisplay-Semibold.woff') format('woff'),
+    url('../fonts/SFProDisplay-Semibold.ttf') format('truetype'),
+    url('../fonts/SFProDisplay-Semibold.svg#SFProDisplay-Semibold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+font-face {
+  font-family: 'SFProDisplay';
+  src: url('../fonts/SFProDisplay-Bold.eot');
+  src: url('../fonts/SFProDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SFProDisplay-Bold.woff2') format('woff2'),
+    url('../fonts/SFProDisplay-Bold.woff') format('woff'),
+    url('../fonts/SFProDisplay-Bold.ttf') format('truetype'),
+    url('../fonts/SFProDisplay-Bold.svg#SFProDisplay-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('../fonts/SFProDisplay-Heavy.eot');
+  src: url('../fonts/SFProDisplay-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SFProDisplay-Heavy.woff2') format('woff2'),
+    url('../fonts/SFProDisplay-Heavy.woff') format('woff'),
+    url('../fonts/SFProDisplay-Heavy.ttf') format('truetype'),
+    url('../fonts/SFProDisplay-Heavy.svg#SFProDisplay-Heavy') format('svg');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  font-family: 'SFProDisplay';
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0px 1000px theme(colors.white) inset !important
+}
+
+.checkbox,
+.radio {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.checkbox input,
+.radio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: -2px;
+  left: 0;
+  height: 22px;
+  width: 22px;
+  border: 1px solid theme(colors.lightGreenBorder)
+}
+
+.checkmark:after,
+.radiomark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.checkbox input:checked~.checkmark:after {
+  display: block;
+}
+
+.checkbox .checkmark:after {
+  left: 8px;
+  top: 3px;
+  width: 5px;
+  height: 12px;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  border-style: solid;
+  border-color: theme(colors.yellowGreen)
+}
+
+/* Create a custom radio button */
+.radiomark {
+  position: absolute;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  border: 1px solid theme(colors.lightBlue)
+}
+
+.radio input:checked~.radiomark:after {
+  display: block;
+}
+
+.radio input:checked~.radiomark {
+  border-color: theme(colors.darkGray)
+}
+
+.radio input:checked+p {
+  color: theme(colors.darkGray)
+}
+
+.radio .radiomark:after {
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background: theme(colors.darkGray)
+}

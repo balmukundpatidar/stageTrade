@@ -1,0 +1,41 @@
+{
+    "data": 
+        
+        [
+           {
+            "id":1,
+            "title":"Strategy X",
+            "content":"Lorem ipsum"
+           },
+           {
+            "id":2,
+            "title":"Strategy X",
+            "content":"Lorem ipsum"
+           },
+           {
+            "id":3,
+            "title":"Strategy X",
+            "content":"Lorem ipsum"
+           },
+           {
+            "id":4,
+            "title":"Strategy X",
+            "content":"Lorem ipsum"
+           },
+           {
+            "id":5,
+            "title":"Strategy X",
+            "content":"Lorem ipsum"
+           },
+           {
+            "id":6,
+            "title":"Strategy X",
+            "content":"Lorem ipsum"
+           }
+         
+          
+        ]
+      
+    
+    
+}

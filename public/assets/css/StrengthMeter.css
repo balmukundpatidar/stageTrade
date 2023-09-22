@@ -1,0 +1,39 @@
+.pwd-checker-bar {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 2px;
+}
+
+.pwd-checker-bar::-webkit-progress-bar {
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  background-color: theme(colors.lightBorder)
+}
+
+.pwd-checker-bar::-webkit-progress-value {
+  border-radius: 2px;
+  background-size: 30px 18px, 100% 100%, 100% 100%;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+
+.strength-weak::-webkit-progress-value {
+  background-color: theme(colors.danger)
+}
+
+.strength-fair::-webkit-progress-value {
+  background-color: theme(colors.icterine)
+}
+
+.strength-good::-webkit-progress-value {
+  background-color: theme(colors.blue)
+}
+
+.strength-strong::-webkit-progress-value {
+  background-color: theme(colors.pigmentGreen)
+}

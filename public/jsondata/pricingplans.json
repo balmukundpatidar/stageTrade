@@ -1,0 +1,124 @@
+{
+    "data": {
+        "signals":[
+            {
+                "id":1,
+                "for": "Individuals",
+                "type": "Free",
+                "description":"Lorem ipsum dolor sit amet doloroli sitiol conse ctetur adipiscing elit.",
+                "price" : "0",
+                "monthly":true,
+                "yearly":false,
+                "status":"",
+                "plansImage":"/assets/images/freePlan.svg",
+                "features":[
+                    "All analytics features",
+                    "Up to 250,000 tracked visits",
+                    "Normal support",
+                    "Splended feature"
+                    ]
+                
+               
+            },
+            {
+                "id":2,
+                "for": "lorem ipsum",
+                "type": "Pro",
+                "description":"Lorem ipsum dolor sit amet doloroli sitiol conse ctetur adipiscing elit.",
+                "price" : "199",
+                "monthly":true,
+                "yearly":false,
+                "status":"Popular",
+                "plansImage":"/assets/images/proPlan.svg",
+                "features":[
+                    "All analytics features",
+                    "Up to 1,050,000 tracked visits",
+                    "Premium support",
+                    "Delightful feature"
+                    ]
+                
+               
+            },
+            {
+                "id":3,
+                "for": "Individuals",
+                "type": "Enterprise",
+                "description":"Lorem ipsum dolor sit amet doloroli sitiol conse ctetur adipiscing elit.",
+                "price" : "399",
+                "monthly":true,
+                "yearly":false,
+                "status":"",
+                "plansImage":"/assets/images/enterprisePlan.svg",
+                "features":[
+                    "All analytics features",
+                    "Up to 5,000,000 tracked visits",
+                    "Normal support",
+                    "Splended feature"
+                    ]
+                
+               
+            }
+        ],
+        "ibkr":[
+            {
+                "id":1,
+                "for": "Individuals IBKR",
+                "type": "Free",
+                "description":"Lorem ipsum dolor sit amet doloroli sitiol conse ctetur adipiscing elit.",
+                "price" : "0",
+                "monthly":true,
+                "yearly":false,
+                "plansImage":"/assets/images/freePlan.svg",
+                "status":"",
+                "features":[
+                    "All analytics features",
+                    "Up to 250,000 tracked visits",
+                    "Normal support",
+                    "Splended feature"
+                    ]
+                
+               
+            },
+            {
+                "id":2,
+                "for": "lorem ipsum IBKR",
+                "type": "Pro",
+                "description":"Lorem ipsum dolor sit amet doloroli sitiol conse ctetur adipiscing elit.",
+                "price" : "199",
+                "monthly":true,
+                "yearly":false,
+                "status":"Popular",
+                "plansImage":"/assets/images/proPlan.svg",
+                "features":[
+                    "All analytics features",
+                    "Up to 1,050,000 tracked visits",
+                    "Premium support",
+                    "Delightful feature"
+                    ]
+                
+               
+            },
+            {
+                "id":3,
+                "for": "Individuals IBKR",
+                "type": "Enterprise",
+                "description":"Lorem ipsum dolor sit amet doloroli sitiol conse ctetur adipiscing elit.",
+                "price" : "399",
+                "monthly":true,
+                "yearly":false,
+                "status":"",
+                "plansImage":"/assets/images/enterprisePlan.svg",
+                "features":[
+                    "All analytics features",
+                    "Up to 5,000,000 tracked visits",
+                    "Normal support",
+                    "Splended feature"
+                    ]
+                
+               
+            }
+        ]
+      
+    }
+    
+}

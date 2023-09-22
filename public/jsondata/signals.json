@@ -1,0 +1,116 @@
+{
+    "data": 
+        
+        [
+            {
+                "id":1,
+                "prediction":"Buy",
+                "asset":"BTC",
+                "datepublished":"08-29-2023",
+                "active":"Yes"
+            },
+            {
+                "id":2,
+                "prediction":"Buy 1",
+                "asset":"BTC",
+                "datepublished":"08-29-2023",
+                "active":"No"
+            },
+            {
+                "id":3,
+                "prediction":"Buy 1",
+                "asset":"BTC",
+                "datepublished":"08-29-2023",
+                "active":"Yes"
+            },
+            {
+                "id":4,
+                "prediction":"Buy 1",
+                "asset":"BTC",
+                "datepublished":"08-29-2023",
+                "active":"No"
+            }
+            ,
+            {
+                "id":5,
+                "prediction":"Buy 1",
+                "asset":"BTC",
+                "datepublished":"08-29-2023",
+                "active":"No"
+            },
+            {
+                "id":6,
+                "prediction":"Buy 2",
+                "asset":"BTC",
+                "datepublished":"08-29-2023",
+                "active":"No"
+            },
+            {
+                "id":7,
+                "prediction":"Buy 1",
+                "asset":"BTC",
+                "datepublished":"08-29-2023",
+                "active":"Yes"
+            },
+            {
+                "id":8,
+                "prediction":"Buy 1",
+                "asset":"BTC",
+                "datepublished":"08-29-2023",
+                "active":"No"
+            },
+            {
+                "id":9,
+                "prediction":"Buy 2",
+                "asset":"BTC",
+                "datepublished":"08-29-2023",
+                "active":"No"
+            },
+            {
+                "id":10,
+                "prediction":"Buy 1",
+                "asset":"BTC",
+                "datepublished":"08-29-2023",
+                "active":"Yes"
+            },
+            {
+                "id":11,
+                "prediction":"Buy 1",
+                "asset":"BTC",
+                "datepublished":"08-29-2023",
+                "active":"Yes"
+            },
+            {
+                "id":12,
+                "prediction":"Buy 2",
+                "asset":"BTC",
+                "datepublished":"08-29-2023",
+                "active":"No"
+            },
+            {
+                "id":13,
+                "prediction":"Buy 1",
+                "asset":"BTC",
+                "datepublished":"08-29-2023",
+                "active":"Yes"
+            }
+            ,
+            {
+                "id":14,
+                "prediction":"Buy 1",
+                "asset":"BTC",
+                "datepublished":"08-29-2023",
+                "active":"Yes"
+            },
+            {
+                "id":15,
+                "prediction":"Buy 2",
+                "asset":"BTC",
+                "datepublished":"08-29-2023",
+                "active":"Yes"
+            }
+        ]
+      
+    
+    
+}
